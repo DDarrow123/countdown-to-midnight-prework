@@ -5,7 +5,6 @@ def countdown(seconds)
 
   while counter > 0
     puts "#{counter} SECOND(S)!"
-    sleep(1)
     counter -= 1
   end
   if seconds > 10
@@ -16,5 +15,4 @@ end
 
 def countdown_with_sleep(sleep_time)
   sleep(sleep_time)
-
 end
