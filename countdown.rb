@@ -8,6 +8,6 @@ def countdown(seconds)
     counter -= 1
   end
   if seconds > 10
-    puts "HAPPY NEW YEAR!"
+     "HAPPY NEW YEAR!"
   end
 end
